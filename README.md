@@ -1,2 +1,2 @@
 # mini-projects
-Experimental and 
+Experimental and learning mini projects.
