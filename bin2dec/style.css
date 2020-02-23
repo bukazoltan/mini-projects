@@ -1,0 +1,67 @@
+/* Resetter */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* tag selectors */
+
+body {
+    background-color: #E8F1F2;
+    display: flex;
+}
+
+
+/* id selectors */
+
+#submitBtn {
+    font-family: 'Odibee Sans';
+    font-size: 5vw;
+}
+
+#textBox {
+    font-family: 'Odibee Sans';
+    font-size: 4vw;
+    text-align: center;
+}
+
+
+/* class selectors */
+
+.app {
+    background-color: #C3D2D5;
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+}
+
+.converter {
+    margin: auto auto;
+    padding: 3vh;
+}
+
+.inputForm {
+    max-width: 100%;
+    color: #5D536B;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono';
+    font-size: 4vw;
+    text-align: center;
+}
+
+.error {
+    background-color: red;
+}
+
+.result>p {
+    text-align: center;
+}
