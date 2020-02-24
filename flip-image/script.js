@@ -1,9 +1,9 @@
-const images = document.querySelectorAll('.image');
+const pictures = document.querySelectorAll('.image');
 
 const clickHandle = (e) => {
-  console.log('yo');
+    console.log('yo');
 }
 
-images.forEach((image) => {
-  image.addEventListener('click', clickHandle)
+pictures.forEach((picture) => {
+    picture.addEventListener('click', clickHandle)
 });

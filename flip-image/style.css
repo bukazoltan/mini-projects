@@ -1,17 +1,29 @@
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
 }
 
-.image {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+image {
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.icon {
+    position: absolute;
+    outline: deeppink solid 2px;
+    bottom: 300px;
+    font-size: 200px;
+    color: white;
 }
