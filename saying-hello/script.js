@@ -4,7 +4,7 @@ let title = document.querySelector('title');
 
 fetch('https://api.ipify.org/')
     .then(response => response.text())
-    .then(response => fetch(`http://ip-api.com/json/${response}`)
+    .then(response => fetch(`https://ip-api.com/json/${response}`)
         .then(response => response.json())
         .then(response => fetch(`https://fourtonfish.com/hellosalut/?lang=${response['countryCode']}`)
             .then(response => response.json())
