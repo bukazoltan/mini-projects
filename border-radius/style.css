@@ -1,0 +1,41 @@
+body {
+    display: flex;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.box {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: black 5px solid;
+}
+
+.copypaste {
+    position: relative;
+}
+
+.invisible {
+    display: none;
+}
+
+.success-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+}
