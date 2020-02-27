@@ -4,3 +4,7 @@ body {
     max-width: 40em;
     width: 88%;
 }
+
+ion-icon {
+    color: black;
+}

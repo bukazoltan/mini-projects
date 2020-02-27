@@ -16,8 +16,12 @@ if (options.length > 0) {
 
 const addText = (e) => {
     if (textBox.value) {
+        let removeButton = document.createElement("ion-icon");
+        removeButton.classList.add('removeButton');
+        removeButton.name = "trash-outline"
         let listitem = document.createElement("li");
         listitem.appendChild(document.createTextNode(textBox.value));
+        listitem.appendChild(removeButton);
         optionsList.appendChild(listitem);
         options.push(textBox.value);
         textBox.value = '';
@@ -30,7 +34,20 @@ const pickRandom = () => {
     alert(random);
 }
 
+const removeElement = (e) => {
+    if (e.target.classList[0] === "removeButton") {
+        e.target.parentElement.parentElement.removeChild(e.target.parentElement);
+    }
+}
+
 // event listeners
 addButton.addEventListener('click', addText);
 textBox.addEventListener('submit', addText);
 randomButton.addEventListener('click', pickRandom);
+textBox.addEventListener('keydown', function(e) {
+    if (e.key === "Enter") {
+        addText();
+    }
+});
+
+document.addEventListener("click", removeElement);
