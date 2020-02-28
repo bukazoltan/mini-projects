@@ -8,5 +8,5 @@ Experimental and learning mini projects.
 * Day 3: border-radius
 * Day 4: temperature
 * Day 5: randomizer
-* Day 6: -
+* Day 6: toggle-tabs
 * Day 7: -
