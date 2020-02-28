@@ -4,7 +4,7 @@ const addButton = document.querySelector('.add');
 const textBox = document.querySelector('.input');
 const optionsList = document.querySelector('.options');
 
-let options = [];
+let options = JSON.parse(localStorage.getItem("options")) || [];
 
 // Add random button node, only attach if the list of options is not empty
 let randomButton = document.createElement("button");
@@ -26,6 +26,7 @@ const addText = (e) => {
         options.push(textBox.value);
         textBox.value = '';
         app.appendChild(randomButton);
+        localStorage.setItem("options", JSON.stringify(options));
     }
 }
 
@@ -37,6 +38,7 @@ const pickRandom = () => {
 const removeElement = (e) => {
     if (e.target.classList[0] === "removeButton") {
         e.target.parentElement.parentElement.removeChild(e.target.parentElement);
+        localStorage.setItem("options", JSON.stringify(options));
     }
 }
 
