@@ -9,4 +9,4 @@ Experimental and learning mini projects.
 * Day 4: temperature
 * Day 5: randomizer
 * Day 6: toggle-tabs
-* Day 7: -
+* Day 7: github-repos
