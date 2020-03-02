@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Progress Bar</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Progress Bar</h1>
+
+	<!-- Show form progress here -->
+	<div id="progress">
+		<progress max="100"></progress>
+		<div id="percentage">0%</div>
+	</div>
+
+	<form id="autosave">
+		<div>
+			<label for="name">Name</label>
+			<input type="text" id="name">
+		</div>
+
+		<div>
+			<label for="email">Email Address</label>
+			<input type="email" id="email">
+		</div>
+
+		<div>
+			<label for="phone">Phone</label>
+			<input type="tel" pattern="^\+?\d*$" id="phone">
+		</div>
+
+		<div>
+			<label for="website">Website</label>
+			<input type="url" id="website">
+		</div>
+
+		<div>
+			<label for="notes">Notes</label>
+			<textarea id="notes"></textarea>
+		</div>
+
+		<button>Submit</button>
+	</form>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
