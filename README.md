@@ -14,9 +14,9 @@ Many of the project ideas come from the great Vanilla JS champion, Chris Ferdina
   * A tool to visualize the CSS border-radius properties and to generate CSS as an output both in long and shorthand form.
 * Day 4: temperature ([demo](https://bukazoltan.github.io/mini-projects/temperature/))
   * An app to convert between Celsius and Fahrenheit. Americans always scare me with their weird temperatures!
-* Day 5: randomizer ([demo](https://bukazoltan.github.io/mini-projects/randomizer/)
+* Day 5: randomizer ([demo](https://bukazoltan.github.io/mini-projects/randomizer/))
   * An app that can gather list items and pick one from them "randomly".
-* Day 6: toggle-tabs ([demo](https://bukazoltan.github.io/mini-projects/toggle-tabs/)
+* Day 6: toggle-tabs ([demo](https://bukazoltan.github.io/mini-projects/toggle-tabs/))
   * A demo of a general script that can turn a list into a toggle tab navbar.
-* Day 7: github-repos ([demo](https://bukazoltan.github.io/mini-projects/github-repos/)
+* Day 7: github-repos ([demo](https://bukazoltan.github.io/mini-projects/github-repos/))
   * A little experimental API project, listing all my github repos.
