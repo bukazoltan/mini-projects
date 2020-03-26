@@ -10,7 +10,7 @@ Many of the project ideas come from the great Vanilla JS champion, Chris Ferdina
   * An app that convert binary numbers to decimal.
 * Day 2: progress-bar ([demo](https://bukazoltan.github.io/mini-projects/progress-bar/))
   * A form that dinamically updates a progress bar as the user progresses filling it out.
-* Day 3: border-radius ([demo)(https://bukazoltan.github.io/mini-projects/border-radius/))
+* Day 3: border-radius ([demo](https://bukazoltan.github.io/mini-projects/border-radius/))
   * A tool to visualize the CSS border-radius properties and to generate CSS as an output both in long and shorthand form.
 * Day 4: temperature ([demo](https://bukazoltan.github.io/mini-projects/temperature/))
   * An app to convert between Celsius and Fahrenheit. Americans always scare me with their weird temperatures!
